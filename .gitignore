@@ -1,3 +1,31 @@
+/public/build/fonts/glyphicons-*
+/public/build/images/glyphicons-*
+
+.php-version
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
+
+
+
+###> gitignore from github ###
 # Cache and logs (Symfony2)
 /app/cache/*
 /app/logs/*
@@ -50,3 +78,4 @@
 
 # Embedded web-server pid file
 /.web-server-pid
+###< gitignore from github ###
